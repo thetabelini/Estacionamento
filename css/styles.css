@@ -1,0 +1,338 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+    /* font-family: "Open Sans", sans serif; */
+}
+
+/* body {
+    background: linear-gradient(120deg,#ffffff,#f5fffa);
+} */
+
+body{
+    background-color: #2e3631;
+    
+    font-family: poppinsregular;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+#principal{
+    background-color: #ffffff;
+    
+    font-family: poppinsregular;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+
+/* Pag inicial */
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#estaindex{
+    padding-top: 100px;
+    flex-direction: column;
+    line-height: 40px;
+}
+
+h1{
+    font-weight: 200;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+    gap: 100px;
+}
+
+h2{
+    color: #fff;
+    font-size: 50px;
+    line-height: 50px;
+    font-family: poppinsmedium;
+}
+
+
+
+.titleindex{
+    color: #2F9E41;
+}
+
+p{
+    color: #838383;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    line-height: 20px;
+    max-width: 500px;
+    font-family: poppinslight;
+}
+
+.index{
+    width: 500px;
+    transition: transform .4s;
+} 
+.index:hover{
+    transform: scale(1.1);
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+
+/* ---------- */
+header div h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+}
+
+
+
+/* -------- */
+
+#consulta {
+    background-color: #ffffff;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+
+form [type="submit"]{
+    height: 50px;
+    width: 185px;
+    background-color: #00c3ff;
+    color: #000000;
+    border: 2px solid #b6b6b6;
+    font-weight: bold;
+}
+
+form [type="submit"]:hover{
+    cursor: pointer;
+    background-color: #2F9E41;
+    color: white;
+    transition: 0.3s all
+}
+
+form [type="text"]{
+    width: 150px;
+    cursor: pointer;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    border: 2px solid #b6b6b6;
+    transition: 0.3s all
+}
+
+
+input{
+    margin-top: 20px;
+    height: 20px;
+    padding: 15px;
+    border-radius: 20px;
+    border: none;
+    font-size: 15px;
+}
+
+
+
+/* -------- */
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#title{
+    width: 50;
+    flex-direction: column;
+    line-height: 10px;
+    padding-top: 16px;
+    padding-left: 16px;
+}
+
+ul{ 
+    font-size: 24px;
+    padding-top: 16px;
+    padding-right: 100px;
+}
+
+li{
+    display: inline-block;
+    margin: 20px;
+}
+
+a{
+    color: rgb(0, 0, 0);
+}
+
+a:hover{ 
+    color: #2F9E41;
+    transition: 0.3s all;
+}
+
+#inscreva-se-btn{
+    border: 2px solid #2F9E41;
+    padding: 10px;
+    border-radius: 15px;
+} 
+
+#inscreva-se-btn:hover{
+    background-color: #2F9E41;
+    color: #ffffff;
+}
+
+/* -------- */
+
+main{
+    display: flex;
+    height: 50vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.estacionamento {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 200px;
+    width: 550px;
+    
+    background: #D91E2E;
+    border-radius: 3px;
+    box-shadow: 0px 8px 10px rgba(64, 64, 64, 0.5);
+}
+
+.estacionamento div{
+    height: 170px;
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    background: rgba(5, 5, 5, .9);
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, .7);
+    border-radius: 7px;
+    letter-spacing: 3px;
+}
+
+section {
+    color: rgb(231, 231, 231);
+    background-image: linear-gradient(90deg, #9572FC, #43E7AD, #E2D45C);
+    background-size: 200% 100%;
+    padding-top: 4px;
+    border-radius: 8px;
+
+}
+
+.estacionamento span {
+    font-weight: bolder;
+    font-size: 60px;
+}
+
+.estacionamento span.tempo{
+    font-size: 20px;
+}
+
+.inicio{
+    width: 200px;
+    height: 120px;
+}
+
+.button {
+    border: none;
+    border-radius: 15px;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 24px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.button1 {
+    background-color: white;
+    color: black;
+    border: 2px solid #2F9E41;
+  }
+  
+.button1:hover {
+    background-color: #2F9E41;
+    color: white;
+  }
+  
+.button2 {
+    background-color: white;
+    color: black;
+    border: 2px solid #2F9E41;
+  }
+  
+.button2:hover {
+    background-color: #2F9E41;
+    color: white;
+  }
+
+
+
+    header div {
+        animation: formBottom .7s .2s backwards;
+    }
+
+    header ul {
+        animation: formBottom .7s .1s backwards;
+    }
+    
+    main section {
+        animation: fromTop .8s backwards;
+    }
+    
+    main section:nth-child(1){
+        animation-delay: .2s;
+    }
+    
+    
+    
+    @keyframes fromTop { /*Parte de um e vai para outro*/
+        from {
+            opacity: 0;
+            transform: translateY(-30px);
+        }
+    
+        to {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+    
+    @keyframes formBottom {
+        from {
+            opacity: 0;
+            transform: translateY(0);
+        }
+    
+        to {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
